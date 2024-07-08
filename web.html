@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment03 Media and Forms</title>
+</head>
+<body>
+    
+    <main>
+        <!--Question No.2-->
+       <section>
+        <div>
+            <p>Assignment NO2</p>
+            <p>Simple web page with pw logo</p>
+        </div>
+        <br>
+        <figure>
+            <img src="./image/Physics_wallah_logo.jpg" title="PW Skills" alt="PW logo" height="250px" width="250px">
+        </figure>
+       </section>
+      
+       <!--Question No3-->
+       <section>
+         <h3>que.No3. Audio Tag</h3>
+         <audio src="./media/Mera Aapki Kripa Se – Tulsi Kumar Ringtone Download - MobCup.Com.Co.mp3"  controls volume="0.1"></audio>
+       </section>
+
+
+       <!--Question No4-->
+       <section>
+        <h3>que.No.4 audio Tag</h3>
+        <audio src="./media/Mera Aapki Kripa Se – Tulsi Kumar Ringtone Download - MobCup.Com.Co.mp3" controls autoplay loop preload="auto"></audio>
+       </section>
+
+       <!--QueNo5 -->
+       <section>
+        <h3>que.No.5 video Tag</h3>
+        <p>Video of sun rises</p>
+        <video src="./media/854638-hd_1920_1080_30fps.mp4" controls loop autoplay height="250px"></video>
+       </section>
+       <br>
+       <!--QueNO.6-->
+       <section>
+        <h3>que.No.6 video Tag with poster </h3>
+        <p>Video of sun rises</p>
+        <video src="./media/854638-hd_1920_1080_30fps.mp4" controls loop autoplay height="250px" poster="./Physics_wallah_logo.jpg"></video>
+       </section>
+
+       <!--QueNO.7 -->
+       <section>
+        <h3>Que.No.7 video tag with disable option</h3>
+        <video src="./media/854638-hd_1920_1080_30fps.mp4" controls loop autoplay height="250px" controlsList="nodownload"></video>
+       </section>
+        <br>
+       <!--QueNo.8-->
+       <section>
+        <h3>Using iframe show pw website</h3>
+        <iframe src="https://pwskills.com" frameborder="0" height="500px" width="900px"></iframe>
+
+       </section>
+       <!--QueNo.9-->
+       <section>
+        <h2>Feedback Form</h2>
+        <form >
+            <fieldset>
+                <legend>Basic Info</legend>
+                <div id="userName">
+                    <label for="uname">Name:</label>
+                    <input type="text" id="uname" placeholder="enter your name">
+                </div>
+                <br>
+                <div i="email">
+                    <label for="email">E-Mail:</label>
+                    <input type="email" id="email" placeholder="enter ur emailId">
+                </div>
+              
+            </fieldset>
+            <fieldset>
+                <legend>Give your Feedback here:</legend>
+                <textarea name="message" id="" rows="5" cols="50" placeholder="Enter ur message here"></textarea>
+            </fieldset>
+        </form>
+       </section>
+
+       <!--QueN0.10-->
+       <section>
+        <h2>User Registration Form</h2>
+        <form >
+            <fieldset>
+                <legend>User Registration Form:</legend>
+                <div id="userName">
+                    <label for="uname">Name:</label>
+                    <input type="text" id="uname" placeholder="enter your name">
+                </div>
+                <br>
+                <div id="email">
+                    <label for="email">E-Mail:</label>
+                    <input type="email" id="email" placeholder="enter ur emailId">
+                </div>
+                <br>
+                <div id="password">
+                    <label for="psswrd">Password:</label>
+                    <input type="password" id="psswrd" placeholder="enter ur password here">
+                </div>
+                <br>
+                <div id="check-box">
+                    Terms&Conditions:
+                    <br>
+                    <input type="checkbox" name="terms&conditions">Are u agree with our terms and conditions.
+                    <br>
+                    <input type="checkbox" name="terms&conditions">Are u sure our terms and conditions
+            
+                </div>
+              
+            </fieldset>
+            
+        </form>
+       </section>
+       
+
+    </main>
+</body>
+</html>
