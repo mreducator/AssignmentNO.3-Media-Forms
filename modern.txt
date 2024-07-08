@@ -1,0 +1,44 @@
+#MODERN HTML - THEORY ASSIGNMENT 
+# que.1. list of Some HTML5 Features
+Answer.  1. Semantic Elements- HTML5 introduced semeantic elements . This Semantic elements provide a clear structure to web pages.
+         2. Audio&Video Tag - HTML5 also introduced <audioo></audioo> and <video></video element Feature. this element is used for embed audio and video features.
+         3.Forms- HTML5 introduced new input types i.e. email, password, url also introduced attributes.
+
+#que2.HTML Enitites
+Answer. HTML Enitites are special code used to represent chracters and have different meaning .
+Some HTML Enitites are
+1). & represent ampresand symbol
+2). < represent less than 
+3). > gretaer than
+
+#que3. Web Accessibility 
+Answers. Web accessbility refers to practice of designing and developing websites and web applications that can be used by people of all abilities and disabilities.
+Devices 
+1).Screen Magnifiers
+2).Keyboard Navigation
+3).AI Text
+4). COLOR contrast and Customization.
+
+#que4. List of 3 way which help to improve accessbility of HTML
+Answers.1). Use Semantic Elements to provide a clear structure to our content i.e. <header></header> <footer></footer>
+   2). Always Provide descriptive alternative text for image use <img> tags also provide alt attributes.
+   3).KeyBoard Accessibility.
+
+#que5. Short note on Tab index
+Answer Tab index attribute used to control tab (Keyboard tab )of focusable element on web pages.
+'Tab index' attributes specifies order in which element recieve keyboard focus when the user navigates through a webpage using tab key.
+Values: Positive integers: Element with lower numbers are focused first.
+
+#que6. List of 5 Semantic tags
+1). Header.  <header></header> this tag is used for heading,navigations.
+2). Footer. <footer></footer> tag is generally use for footer of web pages
+3). Figure . <figure></figure> tag is used for images,videos,diagrams. 
+4).Article . <article></article> tag is used for acrticle
+5).Navigation .<navigation></navigation> use for navigation links such as menu and lists of links to other pages.
+
+#que7. What is use of Semantic tag
+Answer use of semantic tag to provide better understand the hierarchy and relationship of content on a pages.
+Use of Semantic provide a clearity and more readiability and understand for web developers on the project.
+
+
+
